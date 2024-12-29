@@ -7,7 +7,7 @@ public class mathOpr {
         doubleFunc();
     }
 
-    public static void intFunc(){
+    static void intFunc(){
         int x = 15 , y = 10;
 
         int sum = x+y;
@@ -23,8 +23,8 @@ public class mathOpr {
         System.out.println("mod of " + x + " and " + y + " is " + mod);
     }
 
-    public static void floatFunc(){
-        float x = 33 , y = 7;
+    static void floatFunc(){
+        float x = 33.33f , y = 7.1f;
 
         float sum = x+y;
         float sub = x-y;
@@ -40,8 +40,8 @@ public class mathOpr {
         System.out.println("mod of " + x + " and " + y + " is " + mod);
     }
 
-    public static void doubleFunc(){
-        double x = 33.33 , y = 7.1;
+    static void doubleFunc(){
+        double x = 33.31 , y = 8.21;
 
         double sum = x+y;
         double sub = x-y;
